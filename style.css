@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    font-family: "Poppins", Sans-serif;
+    height: 2000px;
+}
+.nav-bg-color{
+    background: linear-gradient(to top, #0099cc 0%, #210f7f 100%);
+}
+.legal-btn{
+    padding: 10px 12px;
+    background-color: #FF5370;
+    margin: 15px 0;
+    border-radius: 25px 25px 25px 25px;
+    color: white !important;
+    transition: transform .2s;
+}
+.legal-btn:hover{
+    
+    background-color: #ee072e !important;
+    color: white !important;
+    transform: scale(1.1);
+}
+.banner-section{
+    position: relative;
+}
+
+
+.image-inner-section {
+    position: absolute;
+    left: 44px;
+    color: white;
+    top: 200px;
+    width: 30%;
+
+}
+.image-inner-section h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+.image-inner-section h5{
+    font-size: 18px;
+}
+.image-inner-section a, .work-method-btn a{
+    padding: 15px 56px;
+}
+section h3 {
+    font-size: 32px;
+    font-weight: 600;
+}
+.work-process-section p{
+    font-size: 18px;
+}
+.work-method-info {
+    background-color: #210f7f;
+    width: 100%;
+    height: 100%;
+    padding: 69px;
+    border-radius: 36px;
+}
+.work-method-info img {
+    width: 120px;
+    height: auto;
+}
+.case-study-bg-color {
+    background-color: #fe4f87;
+    padding: 42px 0px;
+}
